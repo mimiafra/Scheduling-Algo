@@ -343,6 +343,15 @@ Time complexity analysis:
 
 The Stooge sort is a recursive sorting algorithm. It is defined for ascending order sorting.Stooge sort is a recursive sorting algorithm. It is notable for its exceptionally bad time complexity of O(n^(log 3 / log 1.5 ) = O(n2.7095...). The running time of the algorithm is thus slower compared to reasonable sorting algorithms, and is slower than Bubble sort, a canonical example of a fairly inefficient sort. It is however more efficient than Slowsort
 
+## Round Robin Scheduling 
+
+Usage:
+1. Compile: `g++ -std=c++17 scheduling/RoundRobin.cpp -o RoundRobin`
+2. Run: `./RoundRobin`
+3. The program supports interactive input and a sample mode. Output includes a Gantt chart and average waiting/turnaround times.
+
+Complexity: O(n + total_burst / quantum) ~ O(n + k) where k depends on bursts.
+
 ## 3 Way Merge Sort
 Merge sort involves recursively splitting the array into 2 parts, sorting and finally merging them. A variant of merge sort is called 3-way merge sort where instead of splitting the array into 2 parts we split it into 3 parts.
 Merge sort recursively breaks down the arrays to subarrays of size half. Similarly, 3-way Merge sort breaks down the arrays to subarrays of size one third.
