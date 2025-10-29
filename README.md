@@ -233,6 +233,21 @@ Time complexity analysis:
 |Yes|Yes|
 
 
+### Pigeonhole Sort
+
+Pigeonhole sorting is ideal when the range of input values is not significantly larger than the number of elements. It uses an array of "holes" to group elements by value and then collects them in order.
+
+Time complexity analysis:
+
+| Worst Case | Average Case | Best Case |
+|------------|--------------|-----------|
+| O(n + r)   | Θ(n + r)     | Ω(n + r)  |
+
+**In-place?** No  
+**Stable?** Yes  
+*(r = range of input values)*
+
+
 ## Gnome sort
 Gnome sort is a sorting algorithm which is similar to insertion sort, except that moving an element to its proper place is accomplished by a series of swaps, similar to a bubble sort. It is conceptually simple, requiring no nested loops. The average, or expected, running time is O(n2) but tends towards O(n) if the list is initially almost sorted.
 
