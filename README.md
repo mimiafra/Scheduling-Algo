@@ -243,9 +243,9 @@ Time complexity analysis:
 |------------|--------------|-----------|
 | O(n + r)   | Θ(n + r)     | Ω(n + r)  |
 
-**In-place?** No  
-**Stable?** Yes  
-*(r = range of input values)*
+|In-place?|Stable?|
+|---|---|
+|No|Yes|
 
 
 ## Gnome sort
